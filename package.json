@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@react-google-maps/api": "^2.2.0",
+    "codice-fiscale-js": "^2.3.9",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "joi": "^17.4.0",
+    "nodemailer": "^6.6.2",
+    "reach": "^1.0.1",
+    "react-datetime": "^3.0.4",
+    "react-google-maps": "^9.4.5",
+    "use-places-autocomplete": "^1.9.3"
+  }
+}

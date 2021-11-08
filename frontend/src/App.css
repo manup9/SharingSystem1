@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+.contenitore {
+  overflow: hidden;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  display: grid;
+}
+.GestioneCorsa {
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 64px auto auto auto auto;
+}
+
+.Navbar {
+  position: fixed;
+  background-color: #3caea3;
+}
+
+.logonavbar {
+  margin-bottom: 0.2rem;
+}
+.logonavbar1 {
+  margin-bottom: 2rem;
+}
+
+.Footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 0.1rem;
+  background-color: #ed553b;
+}
+
+.HomeCliente {
+  background-color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.bottone {
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center !important;
+  background-color: aqua;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3caea3 !important;
+  border-color: #3caea3 !important;
+}
+
+.bottonenavbar > .btn-primary {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.indietro {
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center !important;
+  margin-top: 14.5rem;
+}
+
+.Fiat {
+  width: 520px;
+  height: 335px;
+}
+.TestoHomeCliente {
+  margin-top: 8rem;
+  margin-left: 10rem;
+}
+.Chisiamo {
+  background-color: #010101;
+  text-align: center;
+}
+
+.dashboardAmministratore {
+  padding-top: 3rem;
+  padding-bottom: 11rem;
+}
+.dashboardAutista {
+  padding-top: 3rem;
+  padding-bottom: 11rem;
+  color: #ffffff;
+  background-color: #ffffff !important;
+}
+.logonotfound {
+  margin-top: 0rem !important;
+  width: 30rem;
+}
+.testonotfound {
+  font-size: 400px;
+  font-weight: bolder;
+}
+
+.modal,
+.z-depth-5 {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .Fiat {
+    width: 25rem;
+    height: auto;
+  }
+  .TestoHomeCliente {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .Chisiamo {
+    background-color: #010101;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  .imgChisiamo {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .dashboardAmministratore {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+  .logonotfound {
+    margin-top: 0rem !important;
+    width: 5rem;
+  }
+  .testonotfound {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 1024px) {
+  .Fiat {
+    margin-top: 5rem;
+    width: 25rem;
+    height: auto;
+  }
+  .TestoHomeCliente {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .Chisiamo {
+    background-color: #010101;
+    padding-bottom: 15rem;
+    text-align: center;
+  }
+  .imgChisiamo {
+    margin-top: 6rem;
+    width: 100%;
+  }
+  .dashboardAmministratore {
+    padding-top: 8rem;
+  }
+  .logonotfound {
+    margin-top: 5rem !important;
+    width: 15rem;
+  }
+  .testonotfound {
+    font-size: 300px;
+    font-weight: bolder;
+  }
+}
